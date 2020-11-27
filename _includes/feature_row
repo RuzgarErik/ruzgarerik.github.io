@@ -23,7 +23,7 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <a href="{{f.title}}"> <h2 class="archive__item-title">{{ f.title }}</h2></a>
+            <a style="text-decoration:none;"href="{{f.title}}"> <h2 class="archive__item-title">{{ f.title }}</h2></a>
           {% endif %}
 
           {% if f.excerpt %}
