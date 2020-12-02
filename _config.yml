@@ -269,21 +269,40 @@ collections:
   projeler:
     output: true
     permalink: /:collection/:path/
-    type: portfolio
   yazilim:
     output: true
     permalink: /:collection/:path/
-    type: portfolio
   nasilyapilir:
     output: true
     permalink: /:collection/:path/
-    type: portfolio
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: "projeler, yazilim, nasilyapilir"
+      path: "/projeler/"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+
+  - scope:
+      path: "/yazilim/"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+
+  - scope:
+      path: "/nasilyapilir/"
+      type: portfolio
     values:
       layout: single
       author_profile: false
