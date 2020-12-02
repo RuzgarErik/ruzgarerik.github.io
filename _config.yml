@@ -269,6 +269,9 @@ collections:
   projeler:
     output: true
     permalink: /:collection/:path/
+  yazilim:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
