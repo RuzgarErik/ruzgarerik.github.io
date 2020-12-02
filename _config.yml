@@ -269,12 +269,15 @@ collections:
   projeler:
     output: true
     permalink: /:collection/:path/
+    type: portfolio
   yazilim:
     output: true
     permalink: /:collection/:path/
+    type: portfolio
   nasilyapilir:
     output: true
     permalink: /:collection/:path/
+    type: portfolio
 # Defaults
 defaults:
   # _posts
