@@ -272,6 +272,9 @@ collections:
   yazilim:
     output: true
     permalink: /:collection/:path/
+  nasilyapilir:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
   # _posts
