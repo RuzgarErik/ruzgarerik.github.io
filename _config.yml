@@ -279,8 +279,8 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "/projeler/"
-      type: portfolio
+      path: ""
+      type: projeler
     values:
       layout: single
       author_profile: false
@@ -290,8 +290,8 @@ defaults:
       related: true
 
   - scope:
-      path: "/yazilim/"
-      type: portfolio
+      path: ""
+      type: yazilim
     values:
       layout: single
       author_profile: false
@@ -301,8 +301,8 @@ defaults:
       related: true
 
   - scope:
-      path: "/nasilyapilir/"
-      type: portfolio
+      path: ""
+      type: nasilyapilir
     values:
       layout: single
       author_profile: false
