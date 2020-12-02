@@ -266,7 +266,7 @@ compress_html:
     envs: development
 
 collections:
-  portfolio:
+  projeler:
     output: true
     permalink: /:collection/:path/
 # Defaults

@@ -2,7 +2,7 @@
 title: Portfolio
 layout: collection
 permalink: /projeler/
-collection: portfolio
+collection: projeler
 entries_layout: grid
 classes: wide
 ---
