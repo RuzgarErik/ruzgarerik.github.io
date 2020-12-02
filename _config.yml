@@ -280,7 +280,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: portfolio
+      type: projeler, yazilim, nasilyapilir
     values:
       layout: single
       author_profile: false
