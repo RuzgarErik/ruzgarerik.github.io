@@ -2,17 +2,17 @@
 title: "Baz Boom Identity"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
-  image: /assets/images/projeler.jpg
-  teaser: /assets/images/projeler.jpg
+  image: /assets/img/projeler.jpg
+  teaser: /assets/img/projeler.jpg
 gallery:
-  - url: /assets/images/projeler.jpg
-    image_path: /assets/images/projeler.jpg
+  - url: /assets/img/projeler.jpg
+    image_path: /assets/img/projeler.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/projeler.jpg
-    image_path: /assets/images/projeler.jpg
+  - url: /assets/img/projeler.jpg
+    image_path: /assets/img/projeler.jpg
     alt: "placeholder image 2"
-  - url: /assets/images/projeler.jpg
-    image_path: /assets/images/projeler.jpg
+  - url: /assets/img/projeler.jpg
+    image_path: /assets/img/projeler.jpg
     alt: "placeholder image 3"
 ---
 
