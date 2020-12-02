@@ -268,13 +268,13 @@ compress_html:
 collections:
   projeler:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projeler/:path/
   yazilim:
     output: true
-    permalink: /:collection/:path/
+    permalink: /yazilim/:path/
   nasilyapilir:
     output: true
-    permalink: /:collection/:path/
+    permalink: /nasilyapilir/:path/
 # Defaults
 defaults:
   # _posts
