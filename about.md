@@ -30,8 +30,3 @@ permalink: /about/
 * **Hardware Design:**
   
   * Schematic and PCB design using KiCad and Cadence tools.
-
-* **Tools & Development:**
-  
-  * Version control with Git and GitHub.
-  * Building CI/CD pipelines for deployment.
