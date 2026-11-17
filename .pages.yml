@@ -1,0 +1,122 @@
+
+media:
+  input: assets/images
+  output: /assets/images
+  categories: [image]
+  rename: safe
+
+settings:
+  content:
+    merge: true
+
+content:
+  # Blog posts
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, published]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: layout
+        type: string
+        default: post
+        hidden: true
+      - name: date
+        label: Publication date
+        type: date
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm:ss xxx"
+      - name: description
+        label: Summary
+        type: text
+      - name: categories
+        type: string
+        list: true
+      - name: tags
+        type: string
+        list: true
+      - name: image
+        label: Featured image
+        type: image
+      - name: published
+        type: boolean
+        default: true
+      - name: body
+        label: Post content
+        type: rich-text
+        options:
+          format: markdown
+
+  # Homepage
+  - name: homepage
+    label: Homepage
+    type: file
+    path: index.md
+    format: yaml-frontmatter
+    fields:
+      - name: layout
+        type: string
+        default: home
+      - name: title
+        type: string
+      - name: list_title
+        label: Posts heading
+        type: string
+      - name: body
+        label: Homepage introduction
+        type: rich-text
+
+  # About page
+  - name: about
+    label: About Page
+    type: file
+    path: about.md
+    format: yaml-frontmatter
+    fields:
+      - name: layout
+        type: string
+        default: page
+      - name: title
+        type: string
+        default: About
+      - name: permalink
+        type: string
+        default: /about/
+      - name: body
+        label: Page content
+        type: rich-text
+
+  # Site configuration
+  - name: site_settings
+    label: Site Settings
+    type: file
+    path: _config.yml
+    format: yaml
+    fields:
+      - name: title
+        label: Site title
+        type: string
+      - name: description
+        label: Site description
+        type: text
+      - name: email
+        type: string
+      - name: url
+        label: Site URL
+        type: string
+      - name: baseurl
+        label: Base URL
+        type: string
